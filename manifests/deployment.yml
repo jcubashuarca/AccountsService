@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: accounts
+  labels:
+    app: accounts
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: accounts
+  template:
+    metadata:
+      labels:
+        app: accounts
+        service: accounts
+    spec:
+      containers:
+        - name: accounts
+          image: accounts.azurecr.io/accounts:v1
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8081
+              protocol: TCP
+          env:
+            - name: ASPNETCORE_URLS
+              value: http://+:8081
+            - name: WebApiBaseAddress
+              value: http://webapi

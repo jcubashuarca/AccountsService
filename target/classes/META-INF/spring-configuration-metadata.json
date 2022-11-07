@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "current-account",
+      "type": "com.nttdata.bootcamp.accountsservice.configuration.CurrentAccountConfiguration",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.CurrentAccountConfiguration"
+    },
+    {
+      "name": "fixed-deposit-account",
+      "type": "com.nttdata.bootcamp.accountsservice.configuration.FixedDepositAccountConfiguration",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.FixedDepositAccountConfiguration"
+    },
+    {
+      "name": "saving-account",
+      "type": "com.nttdata.bootcamp.accountsservice.configuration.SavingAccountConfiguration",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.SavingAccountConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "current-account.maintenance-fee",
+      "type": "java.lang.Double",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.CurrentAccountConfiguration"
+    },
+    {
+      "name": "fixed-deposit-account.maintenance-fee",
+      "type": "java.lang.Double",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.FixedDepositAccountConfiguration"
+    },
+    {
+      "name": "fixed-deposit-account.movements-limit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.FixedDepositAccountConfiguration"
+    },
+    {
+      "name": "fixed-deposit-account.transaction-fee",
+      "type": "java.lang.Double",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.FixedDepositAccountConfiguration"
+    },
+    {
+      "name": "saving-account.maintenance-fee",
+      "type": "java.lang.Double",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.SavingAccountConfiguration"
+    },
+    {
+      "name": "saving-account.movements-limit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.SavingAccountConfiguration"
+    },
+    {
+      "name": "saving-account.transaction-fee",
+      "type": "java.lang.Double",
+      "sourceType": "com.nttdata.bootcamp.accountsservice.configuration.SavingAccountConfiguration"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,10 @@
+com\nttdata\bootcamp\accountsservice\utils\AccountUtilsTest.class
+com\nttdata\bootcamp\accountsservice\serviceimpl\AccountServiceImplTest.class
+com\nttdata\bootcamp\accountsservice\controller\MovementControllerTest.class
+com\nttdata\bootcamp\accountsservice\utils\MovementUtilsTest.class
+com\nttdata\bootcamp\accountsservice\controller\AccountControllerTest.class
+com\nttdata\bootcamp\accountsservice\controller\TransferControllerTest.class
+com\nttdata\bootcamp\accountsservice\serviceimpl\DebitCardServiceImplTest.class
+com\nttdata\bootcamp\accountsservice\serviceimpl\TransferServiceImplTest.class
+com\nttdata\bootcamp\accountsservice\serviceimpl\MovementServiceImplTest.class
+com\nttdata\bootcamp\accountsservice\controller\DebitCardControllerTest.class
